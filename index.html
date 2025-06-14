@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Pigra - Personal Portfolio Website Template</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Edu+TAS+Beginner:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link rel="stylesheet" href="lib/animate/animate.min.css"/>
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+<!-- Spinner Start -->
+<div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+</div>
+<!-- Spinner End -->
+
+<!-- Navbar Start -->
+<div class="container-fluid nav-section border-0">
+    <nav class="navbar navbar-light">
+        <div class="navbar-nav flex-column">
+            <a href="#pigraHome" class="nav-item nav-link active"><span class="fa fa-home"></span> Home</a>
+            <a href="#pigraAbout" class="nav-item nav-link"><span class="far fa-address-card"></span> About</a>
+            <a href="#pigraService" class="nav-item nav-link"><span class="fab fa-servicestack"></span> Service</a>
+            <a href="#pigraContact" class="nav-item nav-link"><span class="fas fa-address-book"></span> Contact</a>
+        </div>
+    </nav>
+</div>
+<!-- Navbar End -->
+
+<!-- Header Start -->
+<div class="container-fluid" id="pigraHome">
+    <div class="container">
+        <div class="row g-0">
+            <div class="col-12 col-lg-3">
+                <div class="header-content bg-dark h-100 pt-6 pe-6 pb-6">
+                    <a href="index.html" class="navbar-brand d-inline-flex pb-5 wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="display-6 text-white mb-0">Portfolio</h1>
+                    </a>
+                    <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.3s">
+                        <p class="text-white sub-title">👋 Hello, I'm Warisha</p>
+                        <h1 class="display-6 text-white mb-0">2nd-Year Software Engineering Student</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-9">
+                <div class="header-img d-flex h-100 pt-6 ps-6 pb-6">
+                    <div class="row g-5">
+                        <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="bg-light p-4" style="border-radius: 68% 32% 100% 0% / 0% 75% 25% 100%;">
+                                <img src="img/header.jpg" class="img-fluid w-100" style="border-radius: 68% 32% 100% 0% / 0% 75% 25% 100%;" alt="Warisha Khan">
+                            </div>
+                        </div>
+                        <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <h1 class="display-6 mb-4">Passionate Web Developer </h1>
+                            <p class="mb-4">I’m a student at Aligarh Institute of Technology, Karachi. I enjoy building websites using HTML, CSS, and PHP. I also love reading books of all kinds and writing stories and blogs in my free time.</p>
+                            <div class="d-flex align-items-center mb-2">
+                                <i class="fas fa-map-marker-alt text-primary me-3"></i>
+                                <p class="text-dark mb-0">Karachi, Pakistan</p>
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                                <i class="fas fa-envelope text-primary me-3"></i>
+                                <p class="text-dark mb-0">wareeshakashif772@gmail.com</p>
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                                <i class="fa fa-phone-alt text-primary me-3"></i>
+                                <p class="text-dark mb-0">(+92) 306 2742581</p> <!-- Replace with your number if you'd like -->
+                            </div>
+                            
+                            <div class="d-flex">
+                                <a class="btn btn-primary btn-sm-square me-3" href="https://instagram.com/_wari.exe" target="_blank">
+                                 <i class="fab fa-instagram text-white"></i></a>
+                                <a class="btn btn-primary btn-sm-square me-0" href="https://linkedin.com/in/wareesha-kashif-334536350" target="_blank"><i class="fab fa-linkedin-in text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Header End -->
+
+
+<!-- About Start -->
+<div class="container-fluid" id="pigraAbout">
+    <div class="container">
+        <div class="row g-0">
+            <div class="col-12 col-lg-3">
+                <div class="about-header bg-dark h-100 pt-6 pe-6 pb-6">
+                    <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+                        <p class="text-white sub-title">About Me</p>
+                        <h1 class="display-6 text-white mb-0">Student Developer & Writer </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-9">
+                <div class="about-content h-100 pt-6 ps-6 pb-6">
+                    <div class="row g-5">
+                        <div class="col-xl-5">
+                            <div class="about-img bg-light p-4 wow fadeInUp" data-wow-delay="0.1s">
+                                <img src="img/aboutus1.jpg" class="img-fluid w-100" alt="Image">
+                               
+                            </div>
+                        </div>
+                        <div class="col-xl-7 wow fadeInUp" data-wow-delay="0.3s">
+                            <h4 class="mb-4">Hi! I’m Warisha Khan, from Karachi</h4>
+                            <p class="mb-4">
+                                I’m a 2nd-year Software Engineering student at Aligarh Institute of Technology. I enjoy web development using HTML, CSS, and PHP. I’m also a passionate reader who explores books of every genre—and I love creative writing, whether it's stories or thoughtful blogs. My goal is to combine design, tech, and expression to create meaningful digital experiences.
+                            </p>
+                            <div class="row g-4 mb-4">
+                                <div class="col-6"></p>
+                                    <p><strong class="fw-bold text-dark">Website:</strong> <a href="https://warisha.dev" target="_blank">warisha.dev</a></p>
+                                    <p class="mb-0"><strong class="fw-bold text-dark">Address:</strong> Karachi, Pakistan</p>
+                                </div>
+                                <div class="col-6">
+                                    <p><strong class="fw-bold text-dark">Nationality:</strong> Pakistani</p>
+                                    <p><strong class="fw-bold text-dark">Email:</strong> wareeshakashif772@gmail.com</p>
+                                    <p class="mb-0"><strong class="fw-bold text-dark">Freelancer:</strong> Open to Projects</p>
+                                </div>
+                           </div>
+                           <a href="img/certificate.jpg" target="_blank" class="btn btn-primary py-2 px-4 mb-3">
+                        <i class="fas fa-download me-2"></i>View My JavaScript Certificate
+                      </a>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+
+<!-- Education Start -->
+<div class="container-fluid">
+    <div class="container">
+        <div class="row g-0">
+            <div class="col-lg-3">
+                <div class="education-header bg-dark h-100 pt-6 pe-6 pb-6">
+                    <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+                        <p class="text-white sub-title">Education</p>
+                        <h1 class="display-6 text-white mb-0">My Education Background</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="education-content h-100 pt-6 ps-6 pb-6">
+                    <div class="row g-4">
+
+                        <!-- Aligarh Institute -->
+                        <div class="col-12">
+                            <div class="education-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="d-flex align-items-center mb-3">
+                                    <p class="fs-5 mb-0 me-4">Aligarh Institute of Technology</p>
+                                    <div>
+                                        <span class="fa fa-calendar me-1"></span> 2023 - 2026
+                                    </div>
+                                </div>
+                                <h4 class="mb-3">Diploma in Software Engineering</h4>
+                                <p class="mb-0">Currently pursuing a diploma in software engineering. Learning frontend and backend development including HTML, CSS, PHP, WordPress, CodeIgniter, and MySQL. Developed projects like E-learnify as part of academic work.</p>
+                            </div>
+                        </div>
+
+                        <!-- Matric -->
+                        <div class="col-12">
+                            <div class="education-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="d-flex align-items-center mb-3">
+                                    <p class="fs-5 mb-0 me-4">Federal Secondary School, Karachi</p>
+                                    <div>
+                                        <span class="fa fa-calendar me-1"></span> 2022 - 2023
+                                    </div>
+                                </div>
+                                <h4 class="mb-3">Matriculation (Science)</h4>
+                                <p class="mb-0">Completed 9th and 10th with A1 grades. Gained strong foundational knowledge in science and computer studies, preparing me for my diploma in software engineering.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Education End -->
+
+
+<!-- Experience Start -->
+<div class="container-fluid">
+    <div class="container">
+        <div class="row g-0">
+            <div class="col-lg-3">
+                <div class="experience-header bg-dark h-100 pt-6 pe-6 pb-6">
+                    <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+                        <p class="text-white sub-title">Experience</p>
+                        <h1 class="display-6 text-white mb-0">Academic Projects & Achievements</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="experience-content h-100 pt-6 ps-6 pb-6">
+                    <div class="row g-4">
+                <!-- Project: E-learnify -->
+<div class="col-12">
+    <div class="experience-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.1s">
+        <!-- Project image -->
+        
+
+        <div class="d-flex align-items-center mb-3">
+            <p class="fs-5 mb-0 me-4">Aligarh Institute of Technology</p>
+            <div>
+                <span class="fa fa-calendar me-1"></span> 2023
+            </div>
+        </div>
+        <h4 class="mb-3">Team Project – E-learnify LMS</h4>
+        <p class="mb-2">Worked as frontend developer and UI designer. Helped build a learning platform using HTML, CSS, PHP, and Bootstrap. Collaborated with teammates, led the UI design, and contributed to usability testing.</p>
+
+        <!-- Small button with background image behind it -->
+<div style="position: relative; display: inline-block;">
+    <!-- Background image -->
+    <img src="img/project1.jpg" alt="Background" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; border-radius: 5px; z-index: -1; opacity: 0.2;">
+
+    <!-- Button on top of the image -->
+    <a href="img/project1.jpg" target="_blank" class="btn btn-sm btn-primary" style="position: relative; z-index: 1;">
+        <img src="img/project1.jpg" alt="Certificate Icon" style="width: 16px; height: 16px; margin-right: 5px;">
+        View Certificate
+    </a>
+</div>
+
+
+
+                        <!-- Certificate-Based Experience -->
+                        <div class="col-12">
+                            <div class="experience-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="d-flex align-items-center mb-3">
+                                    <p class="fs-5 mb-0 me-4">Cisco Networking Academy</p>
+                                    <div>
+                                        <span class="fa fa-calendar me-1"></span> Feb 2025
+                                    </div>
+                                </div>
+                                <h4 class="mb-3">JavaScript Essentials 1 – Certified</h4>
+                                <p class="mb-0">Completed a foundational course on JavaScript through Cisco Networking Academy at Aligarh Institute of Technology. Learned scripting basics, functions, and DOM manipulation.</p>
+                            </div>
+                        </div>
+
+                        <!-- Co-Curricular Participation -->
+                        <div class="col-12">
+                            <div class="experience-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="d-flex align-items-center mb-3">
+                                    <p class="fs-5 mb-0 me-4">AIT Art Competition</p>
+                                    <div>
+                                        <span class="fa fa-calendar me-1"></span> May 2023
+                                    </div>
+                                </div>
+                                <h4 class="mb-3">World No Tobacco Day – Art Participation</h4>
+                                <p class="mb-0">Took part in an on-campus art competition on World No Tobacco Day organized by the college. Created artwork focused on health awareness and anti-smoking messaging, and received a certificate of participation.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Experience End -->
+
+
+    <!-- Skills Start -->
+<div class="container-fluid">
+    <div class="container">
+        <div class="row g-0">
+            <div class="col-lg-3">
+                <div class="skills-header h-100 bg-dark pt-6 pe-6 pb-6">
+                    <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+                        <p class="text-white sub-title">Skills</p>
+                        <h1 class="display-6 text-white mb-0">My Expertise</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="skills-content h-100 pt-6 ps-6 pb-6">
+                    <div class="row g-4">
+
+                        <!-- HTML & CSS -->
+                        <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                            <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="text-primary mb-3"><i class="fab fa-html5 fa-3x"></i></div>
+                                <div class="d-flex justify-content-center mb-2">
+                                    <h4 class="display-6">90</h4><h4 class="display-6">%</h4>
+                                </div>
+                                <p class="mb-0">HTML & CSS</p>
+                            </div>
+                        </div>
+
+                        <!-- PHP -->
+                        <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                            <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="text-primary mb-3"><i class="fas fa-code fa-3x"></i></div>
+                                <div class="d-flex justify-content-center mb-2">
+                                    <h4 class="display-6">70</h4><h4 class="display-6">%</h4>
+                                </div>
+                                <p class="mb-0">PHP</p>
+                            </div>
+                        </div>
+
+                        <!-- WordPress -->
+                        <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                            <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="text-primary mb-3"><i class="fab fa-wordpress fa-3x"></i></div>
+                                <div class="d-flex justify-content-center mb-2">
+                                    <h4 class="display-6">60</h4><h4 class="display-6">%</h4>
+                                </div>
+                                <p class="mb-0">WordPress</p>
+                            </div>
+                        </div>
+
+                        <!-- Java -->
+                        <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                            <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="text-primary mb-3"><i class="fab fa-java fa-3x"></i></div>
+                                <div class="d-flex justify-content-center mb-2">
+                                    <h4 class="display-6">30</h4><h4 class="display-6">%</h4>
+                                </div>
+                                <p class="mb-0">Java</p>
+                            </div>
+                        </div>
+
+                        <!-- JavaScript -->
+                        <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                            <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="text-primary mb-3"><i class="fab fa-js fa-3x"></i></div>
+                                <div class="d-flex justify-content-center mb-2">
+                                    <h4 class="display-6">30</h4><h4 class="display-6">%</h4>
+                                </div>
+                                <p class="mb-0">JavaScript</p>
+                            </div>
+                        </div>
+
+                        <!-- SEO -->
+                        <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                            <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="text-primary mb-3"><i class="fas fa-search fa-3x"></i></div>
+                                <div class="d-flex justify-content-center mb-2">
+                                    <h4 class="display-6">50</h4><h4 class="display-6">%</h4>
+                                </div>
+                                <p class="mb-0">SEO</p>
+                            </div>
+                        </div>
+
+                        <!-- Graphic Designing -->
+                        <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                            <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.7s">
+                                <div class="text-primary mb-3"><i class="fas fa-paint-brush fa-3x"></i></div>
+                                <div class="d-flex justify-content-center mb-2">
+                                    <h4 class="display-6">60</h4><h4 class="display-6">%</h4>
+                                </div>
+                                <p class="mb-0">Graphic Designing</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Skills End -->
+
+
+
+       <!-- Service Start -->
+<div class="container-fluid" id="pigraService">
+    <div class="container">
+        <div class="row g-0">
+            <div class="col-lg-3">
+                <div class="service-header h-100 bg-dark pt-6 pe-6 pb-6">
+                    <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+                        <p class="text-white sub-title">My Services</p>
+                        <h1 class="display-6 text-white mb-0">What I Do</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="service-content h-100 pt-6 ps-6 pb-6">
+                    <div class="row g-4">
+
+                        <!-- Website Development -->
+                        <div class="col-12">
+                            <div class="service-item p-4 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="row g-4 align-items-center">
+                                    <div class="col-xl-2">
+                                        <i class="fas fa-laptop-code fa-3x"></i>
+                                    </div>
+                                    <div class="col-xl-3">
+                                        <h4 class="mb-0">Website Development</h4>
+                                    </div>
+                                    <div class="col-xl-4">
+                                        <p class="mb-0">Building responsive and user-friendly websites tailored for new and growing businesses.</p>
+                                    </div>
+                                    <div class="col-xl-3">
+                                        <p><i class="fa fa-check me-2"></i> HTML, CSS, PHP</p>
+                                        <p class="mb-0"><i class="fa fa-check me-2"></i> WordPress</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SEO Optimization -->
+                        <div class="col-12">
+                            <div class="service-item p-4 wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="row g-4 align-items-center">
+                                    <div class="col-xl-2">
+                                        <i class="fas fa-search fa-3x"></i>
+                                    </div>
+                                    <div class="col-xl-3">
+                                        <h4 class="mb-0">SEO Optimization</h4>
+                                    </div>
+                                    <div class="col-xl-4">
+                                        <p class="mb-0">Improving online visibility of businesses with smart SEO techniques and Google ranking strategies.</p>
+                                    </div>
+                                    <div class="col-xl-3">
+                                        <p><i class="fa fa-check me-2"></i> Keyword Research</p>
+                                        <p class="mb-0"><i class="fa fa-check me-2"></i> On-Page SEO</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Branding -->
+                        <div class="col-12">
+                            <div class="service-item p-4 wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="row g-4 align-items-center">
+                                    <div class="col-xl-2">
+                                        <i class="fas fa-pen-nib fa-3x"></i>
+                                    </div>
+                                    <div class="col-xl-3">
+                                        <h4 class="mb-0">Logo Design</h4>
+                                    </div>
+                                    <div class="col-xl-4">
+                                        <p class="mb-0">Creating visual identity for startups including logo, color palette and basic brand kit.</p>
+                                    </div>
+                                    <div class="col-xl-3">
+                                        <p><i class="fa fa-check me-2"></i> Logo</p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                     
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Service End -->
+
+<!-- Testimonial Removed -->
+
+
+        <!-- Contact Start -->
+        <div class="container-fluid" id="pigraContact">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-lg-3">
+                        <div class="contact-header h-100 bg-dark pt-6 pe-6 pb-6">
+                            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+                                <p class="text-white sub-title">Contact Me</p>
+                                <h1 class="display-6 text-white mb-0">Let’s Start A New Project</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                       <div class="contact-content h-100 pt-6 ps-6 pb-6">
+                            <div class="bg-light p-4">
+                                <div class="row g-5">
+                                    <div class="col-xl-5 wow fadeInUp" data-wow-delay="0.1s">
+                                        <p class="mb-4"><strong>CONTACT US</strong></a>.</p>
+                                        <div class="d-flex mb-4">
+                                            <div class="btn-xl-square bg-primary text-white me-3">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                            </div>
+                                            <div>
+                                                <h4>Address</h4>
+                                                <p class="mb-0">FB Area Block-21, Karachi </p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mb-4">
+                                            <div class="btn-xl-square bg-primary text-white me-3">
+                                                <i class="fas fa-envelope"></i>
+                                            </div>
+                                            <div>
+                                                <h4>Mail Us</h4>
+                                                <p class="mb-0">wareeshakashif772@gmail.com</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex">
+                                            <div class="btn-xl-square bg-primary text-white me-3">
+                                                <i class="fa fa-phone-alt"></i>
+                                            </div>
+                                            <div>
+                                                <h4>Telephone</h4>
+                                                <p class="mb-0">(+92) 306 2742581</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+    
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer bg-dark border-bottom-0">
+            <div class="container wow fadeIn" data-wow-delay="0.1s">
+                <div class="row g-0">
+                    <div class="col-12">
+                       <div class="footer-content h-100 pt-6 ps-6 pb-6">
+                            <div class="row g-4 align-items-center">
+                                <div class="col-12 text-center">
+                              <!-- Social + Footer -->
+<div class="text-center mt-4">
+    <h5 class="text-dark mb-3">Follow Me</h5>
+    <div class="d-flex justify-content-center gap-3">
+        <a class="btn btn-outline-primary btn-sm-square rounded-circle social-icon" href="https://instagram.com/_wari.exe" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a class="btn btn-outline-primary btn-sm-square rounded-circle social-icon" href="https://linkedin.com/in/wareesha-kashif-334536350" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a class="btn btn-outline-primary btn-sm-square rounded-circle social-icon" href="https://github.com/warisha-kashif" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+    </div>
+</div>
+
+<div class="col-12 text-center mt-4">
+    <span class="text-body small">
+        &copy; 2025 <a>Warisha Khan</a> - All rights reserved.
+    </span>
+</div>
+
+
+
+                       </div>        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
